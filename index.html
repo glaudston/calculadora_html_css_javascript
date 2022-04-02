@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<script src="./scrip.js"></script>
+<body>
+    <header>
+        <h1>calculadora</h1>
+    </header>
+    <form action="somar">
+
+        <p >Primeiro numero: <input  id="n1"type="number" placeholder="digite aqui"> </p><select name="seletor" id="seletor"><option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">x</option>
+        <option value="/">/</option></select>
+        <p>Segundo numero: <input  id="n2" type="number" placeholder="digite aqui"></p>
+    </form><br>
+    <button onclick="calcular()"
+    >calcular
+</button>
+    <div id="res"><h3>Resultado</h3>
+    </div>
+
+
+    <h5>Desenvolvido por @glaudston.martins</h5>
+    
+</body>
+</html>
